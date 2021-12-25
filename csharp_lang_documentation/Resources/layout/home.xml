@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:foo="http://schemas.android.com/apk/res/cheesebaron.fontsample"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        cardview:cardCornerRadius="10dp"
+        cardview:cardElevation="2dp"
+        android:background="#FFFFFF">
+        <View
+            android:layout_width="280dp"
+            android:layout_height="150dp"
+            android:layout_gravity="right"
+            android:background="@drawable/card_information"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="47dp"
+            android:backgroundTint="#6F15E8"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="12dp"
+            android:text="Batafsil"
+            android:id="@+id/batafsil_Btn"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nega aynan"
+            android:textColor="@color/colorText"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="C#"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            android:textSize="32dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="20dp"/>
+    </androidx.cardview.widget.CardView>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rowCount="2"
+        android:columnCount="2">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            cardview:cardCornerRadius="10dp"
+            cardview:cardElevation="2dp"
+            android:background="#FFFFFF">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_back"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="C# ni boshlash"
+                android:textColor="@color/colorCardText"
+                android:textStyle="normal"
+                android:textSize="26dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            cardview:cardCornerRadius="10dp"
+            cardview:cardElevation="2dp"
+            android:background="#FFFFFF">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_back"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="C# dagi muhim mavzular"
+                android:textColor="@color/colorCardText"
+                android:textStyle="normal"
+                android:textSize="26dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            cardview:cardCornerRadius="10dp"
+            cardview:cardElevation="2dp"
+            android:background="#FFFFFF">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_back"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="C# dagi Professional mavzular"
+                android:textColor="@color/colorCardText"
+                android:textStyle="normal"
+                android:textSize="26dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            cardview:cardCornerRadius="10dp"
+            cardview:cardElevation="2dp"
+            android:background="#FFFFFF">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/card_back"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Linq \nasoslari"
+                android:textColor="@color/colorCardText"
+                android:textStyle="normal"
+                android:textSize="26dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"/>
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</LinearLayout>

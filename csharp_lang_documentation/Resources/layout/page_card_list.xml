@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F7F7F7">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                cardview:cardCornerRadius="10dp"
+                cardview:cardElevation="1dp"
+                android:id="@+id/card_about"
+                android:background="#FFFFFF">
+                <View
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    cardview:cardCornerRadius="8dp"
+                    android:background="@drawable/icon_card"/>
+                <View
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/icon_next"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+            android:layout_marginVertical="23dp"
+                    android:layout_marginLeft="80dp"
+                    android:textColor="@color/colorText"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Introduction"/>
+            </androidx.cardview.widget.CardView>
+
+
+        
+</RelativeLayout>
